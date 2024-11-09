@@ -13,6 +13,7 @@ public class Base
 	{
 		driver=new ChromeDriver();
 		driver.get("https://selenium.qabible.in/simple-form-demo.php");
+		driver.get("https://www.saucedemo.com/v1/");
 		driver.manage().window().maximize();
 		
 	}
